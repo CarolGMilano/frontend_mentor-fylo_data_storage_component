@@ -1,0 +1,7 @@
+@media screen and (min-width: 800px) {
+    body {
+        background: url('../../img/bg-desktop.png') no-repeat, var(--preto);
+        background-size: contain;
+        background-position: bottom;
+    }
+}

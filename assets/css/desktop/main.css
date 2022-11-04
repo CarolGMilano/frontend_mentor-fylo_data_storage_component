@@ -1,0 +1,45 @@
+@media screen and (min-width: 800px) {
+    .conteudo {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5rem;
+        row-gap: 0;
+        align-items: flex-end;
+        width: min-content;
+    }
+
+    .conteudo__header {
+        min-width: 350px;
+    }
+
+    .conteudo__storage {
+        min-width: 550px;
+        height: 150px;
+    }
+
+    .storage__titulo {
+        align-self: flex-start;
+    }
+
+    .circulo {
+        left: 96%;
+    }
+
+    .storage__disponibilidade {
+        width: 180px;
+        height: min-content;
+        left: 330px;
+        top: -35px;
+    }
+
+    .triangulo {
+        position: absolute;
+        width: 0;
+        height: 0;
+        bottom: -20px;
+        right: 0;
+        border-left: 40px solid transparent;
+        border-top: 30px solid var(--branco_azulado);
+        display: block;
+    }
+}

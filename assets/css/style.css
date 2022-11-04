@@ -1,0 +1,15 @@
+@import url('mobile/body.css');
+@import url('mobile/main.css');
+
+@import url('desktop/body.css');
+@import url('desktop/main.css');
+
+:root {
+    --gradiente: to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%);
+    --branco_azulado: hsl(243, 100%, 93%);
+    --cinza: hsl(229, 7%, 55%);
+    --azul_escuro: hsl(228, 56%, 26%);
+    --preto: hsl(229, 57%, 11%);
+
+    --fonte: 'Raleway', sans-serif;
+}

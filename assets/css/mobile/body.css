@@ -1,0 +1,7 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fonte);
+    background: url('../../img/bg-mobile.png') no-repeat;
+    background-size: cover;
+}
